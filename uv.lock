@@ -2890,7 +2890,7 @@ wheels = [
 
 [[package]]
 name = "xrscipy"
-version = "3.0.3"
+version = "3.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "docstring-parser" },
@@ -2924,7 +2924,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "docstring-parser", specifier = ">=0.15" },
+    { name = "docstring-parser", specifier = ">=0.16" },
     { name = "scipy", specifier = ">=1.9" },
     { name = "xarray", specifier = ">=0.16" },
 ]
